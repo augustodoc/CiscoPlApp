@@ -1,4 +1,4 @@
-# Install and Run
+# Setup and Run
 At terminal shell prompt of Nix* OS machine enter:
 
 1. For Python packages requirement:  
