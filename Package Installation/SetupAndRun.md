@@ -2,8 +2,8 @@
 # Setup and Run
 At terminal shell prompt of Nix* OS machine enter:
 
-1. For setup:  
-user@host:~ $ pip3 install -f requirements.txt  
+1. For setup, enter in Pagkage Installation directory and type:  
+user@host:~ $ pip3 install -f ciscoplapp-0.1.tar.gz 
 2. For run, enter a command:  
 user@host:.../... $ ciscoplapp
 a shell script launch the application.
