@@ -18,7 +18,7 @@ the Tag`<name></name>` in XML file is critical, it expand name of service with h
 ```
 This method with different key name can be used for discover a generic services http type. 
 ### Install methods
-1. Local directory
-2. Python package
+1. Local directory: [Local_Installation](https://github.com/augustodoc/CiscoPlApp/tree/master/Local_Installation)
+2. Python package:  [Package_Installation](https://github.com/augustodoc/CiscoPlApp/tree/master/Package_Installation)
 
 
