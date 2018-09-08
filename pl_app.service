@@ -1,7 +1,9 @@
+
 <?xml version="1.0" standalone='no'?><!--*-nxml-*-->
 <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<!-- Example of avahi http service definition -->
 <service-group>
-<name replace-wildcards="yes">%h:cisco-pl-app</name>
+<name replace-wildcards="yes">%h:cisco-pl-app</name> <!-- %h:<service type name key>  (%h is a host name)-->
 <service>
 <type>_http._tcp</type>
 <port>80</port>
