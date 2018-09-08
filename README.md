@@ -16,7 +16,7 @@ the Tag`<name></name>` in XML file is critical, it expand name of service with h
 ```xml
 <name replace-wildcards="yes">%h:cisco-pl-app</name>
 ```
-This method with different key name can be used for discover a generic services type. 
+This method with different key name can be used for discover a generic services http type. 
 ### Install methods
 1. Local directory
 2. Python package
