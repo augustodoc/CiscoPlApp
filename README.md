@@ -15,6 +15,6 @@ as template file use  [pl_app.service](https://github.com/augustodoc/CiscoPlApp/
 the Tag ``<name></name>`` in XML file is critical, it expand name of service with host (%h) and a costant key ':cisco-pl-app'    which is used for identify only a remote machine with CISCO PL-PP (Jupyter Notebook)  
 ``
 <name replace-wildcards="yes">%h:cisco-pl-app</name>
-``
+``  
 This method with different key name can be used for discover a generic services type. 
 
