@@ -1,5 +1,5 @@
 # Setup and Run
-At terminal shell prompt of Nix* OS machine enter:
+At terminal shell prompt of *Nix OS machine enter:
 
 1. For Python packages requirement:  
 user@host:~ $ pip3 install -r requirements.txt  
