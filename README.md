@@ -10,5 +10,5 @@ if command output show
 is all **ok**.  
 else install it with **sudo apt-get install avahi-daemon**  
 
-2. In **/etc/avahi/services* directory put a service definition XML file with extension **.service**
+2. In /etc/avahi/services directory put a service definition XML file with extension **.service**
 
