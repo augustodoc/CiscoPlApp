@@ -12,6 +12,6 @@ else install it with **sudo apt-get install avahi-daemon**
 
 2. In /etc/avahi/services directory put a service definition XML file with extension **.service**  
 as template [pl_app.service](https://github.com/augustodoc/CiscoPlApp/blob/master/pl_app.service)  
-`` `xml
+``
 <name replace-wildcards="yes">%h:cisco-pl-app</name>
-`` `
+``
