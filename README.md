@@ -12,7 +12,7 @@ else install it with **sudo apt-get install avahi-daemon**
 
 2. In /etc/avahi/services directory put a service definition XML file with extension **.service**  
 as template file use  [pl_app.service](https://github.com/augustodoc/CiscoPlApp/blob/master/pl_app.service)  
-the Tag`xml<name></name>` in XML file is critical, it expand name of service with host (%h) and a costant key ':cisco-pl-app'      which is used for identify only a remote machine with CISCO PL-PP (Jupyter Notebook) ``
+the Tag`<name></name>` in XML file is critical, it expand name of service with host (%h) and a costant key ':cisco-pl-app'      which is used for identify only a remote machine with CISCO PL-PP (Jupyter Notebook) ``
 ```xml
 <name replace-wildcards="yes">%h:cisco-pl-app</name>
 ```
